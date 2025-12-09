@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+     /* padding: 0; */
+     /* width: 100vh; */
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: rgb(250, 245, 230); */
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+.main {
+    padding-top: 55px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+  
+    
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(250, 245, 230);
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+
+}
+
+.navbar__link{
+   font-size: 25px;
+   
+
+}
+.navbar__link a{
+    padding: 0 15px;
+    text-decoration: none;
+   color: inherit;
+   justify-content: flex-end;
+
+}
+
+h1{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Home{
+    width: 100%;
+    height: 100vh;
+   background: url("images/WhatsApp\ Image\ 2025-12-01\ at\ 17.49.38_b025e58f.jpg");
+   background-size: cover;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Home h2 {
+    position: relative;
+    left: 35%;
+    top: 30%;
+    font-size: 60px;
+}
+
+.Home h3{
+    position: relative;
+    left: 35%;
+    top: 30%;
+    font-size: 25px;
+}
+
+.Home button{
+     position: relative;
+    left: 45%;
+    top: 30%;
+    font-size: 30px;
+   margin-left: 20px;
+   margin: 15px 20px 0 20px;
+   padding: 5px 5px 5px 5px ;
+   font-size: 30px;
+   background-color: blanchedalmond;
+}
+
+.Recipes{
+     width: 100%;
+    height: 1600px;
+}
+
+.About {
+    background-color: rgb(209, 207, 207);
+    height: 100vh
+
+}
+
+.About p {
+     font-size: 25px;
+     font-style: italic;
+     padding: 50px;
+     padding-left: 60px;
+}
+.About h3 {
+    font-size: 40px;
+    font-style: oblique;
+    padding-left: 550px;
+    padding-top: 35px;
+}
+
+.Contact {
+    background-color: rgb(254, 253, 253);
+    height: 100vh;
+}
+.Contact h2 {
+     font-size: 40px;
+    font-style: oblique;
+    padding-left: 550px;
+    padding-top: 50px;
+}
+.Contact p {
+    font-size: 25px;
+     font-style: italic;
+     padding: 50px;
+     padding-left: 60px;
+     padding-top: 100px;
+}
+.Email a {
+    color: inherit;
+    padding-bottom: 100px;
+}
+
+.Email {
+    padding-bottom: 100px;
+}
+
+
+/* SMALL IMAGES IN BREAKFAST SECTION */
+.breakfast {
+    /* background-color: red; */
+    height: 400px;
+   
+}
+
+.breakfast h2 {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.frenchtoast{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 75px;
+    border: 20px;
+   
+
+}
+
+.frenchtoast img {
+    width: 170px;
+    height: 180px;
+}
+
+.frenchtoast  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 10px;
+}
+.oats{
+   
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 795px;
+    bottom: 525px;
+
+}
+.oats img {
+    width: 230px;
+    height: 180px;
+   
+}
+
+.oats  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 25px;
+       
+}
+.pancakes{
+   
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 335px;
+    /* top: 45px; */
+    bottom: 125px;
+
+}
+.pancakes img {
+    width: 170px;
+    height: 180px;
+}
+
+.pancakes  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+        top: 10px;
+       left: 15px;
+}
+.waffles{
+   
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 565px;
+    bottom: 325px;
+
+}
+.waffles img {
+    width: 170px;
+    height: 180px;
+}
+
+.waffles  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+        top: 10px;
+       left: 20px;
+}
+/* SMALL IMAGES IN BREAKFAST SECTION */
+
+
+/* SMALL IMAGES IN LUNCH SECTION */
+.Lunch {
+    
+    height: 400px;
+   
+}
+.Lunch h2 {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stirfry{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 75px;
+    border: 20px;
+   
+
+}
+
+.stirfry img {
+    width: 170px;
+    height: 180px;
+}
+
+.stirfry  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 10px;
+}
+.tunasalad{
+   
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 325px;
+    bottom: 175px;
+
+}
+.tunasalad img {
+    width: 230px;
+    height: 250px;
+    
+   
+   
+   
+}
+
+.tunasalad  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       bottom: 15px;
+       left: 30px;
+       
+}
+
+/* small images for dinner */
+.pizza{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 75px;
+    border: 20px;
+   
+
+}
+
+.pizza img {
+    width: 200px;
+    height: 200px;
+}
+
+.pizza  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 50px;
+
+}
+.pasta{
+   
+    width: 175px;
+    height: 175px;
+    position: relative;
+    left: 350px;
+    bottom: 125px;
+
+}
+.pasta img {
+    width: 200px;
+    height: 200px;
+
+   
+}
+
+.pasta h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 25px;
+       
+}
+/* small images for dinner */
+/* Small images for dessert */
+
+.carrot{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 75px;
+    border: 20px;
+   
+
+}
+
+.carrot img {
+    width: 200px;
+    height: 200px;
+}
+
+.carrot  h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 30px;
+
+}
+.cinnamon{
+   
+    width: 175px;
+    height: 175px;
+    position: relative;
+    left: 350px;
+    bottom: 125px;
+
+}
+.cinnamon img {
+    width: 200px;
+    height: 200px;
+   
+
+   
+}
+
+.cinnamon h3 {
+       font-size: 15px;
+       padding-left: 25px;
+       position: relative;
+       top: 10px;
+       left: 25px;
+       
+}
+
+
+
+/* Small images for dessert */
+
+
+/* Stir fry recipe */
+.stirfry__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.stirfry__section img{
+   position: relative;
+   left: 1000px;
+  bottom: 750px;
+   width: 400px;
+   height: 400px;
+   
+}
+
+.stirfry__section:target {
+    display: block;
+}
+
+.stirfry__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.stirfry__content h2{
+    font-size: 80px; 
+      
+}
+.stirfry__content h3{
+    font-size: 35px;
+}
+
+
+
+/* TUNA SALAD RECIPE */
+
+.tunasalad__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+
+.tunasalad__section:target {
+    display: block;
+}
+
+.tunasalad__section img{
+   position: relative;
+   left: 890px;
+  bottom: 650px;
+   width: 450px;
+   height: 500px;
+   
+}
+
+
+
+.tunasalad__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.tunasalad__content h2{
+    font-size: 80px; 
+      
+}
+.tunasalad__content h3{
+    font-size: 35px;
+}
+
+
+
+/* DINNER SECTION */
+.Dinner {
+    /* background-color: orange; */
+    height: 400px;
+  
+}
+
+.Dinner h2 {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pizza__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.pizza__section img{
+   position: relative;
+   left: 1000px;
+  bottom: 750px;
+   width: 400px;
+   height: 400px;
+   
+}
+
+.pizza__section:target {
+    display: block;
+}
+
+.pizza__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.pizza__content h2{
+    font-size: 80px; 
+      
+}
+.pizza__content h3{
+    font-size: 35px;
+}
+
+.pasta__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.pasta__section img{
+   position: relative;
+   left: 1000px;
+  bottom: 750px;
+   width: 400px;
+   height: 400px;
+   
+}
+
+.pasta__section:target {
+    display: block;
+}
+
+.pasta__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.pasta__content h2{
+    font-size: 80px; 
+      
+}
+.pasta__content h3{
+    font-size: 35px;
+}
+
+
+/* Dessert section */
+.Dessert {
+    /* background-color: pink; */
+    height: 400px;
+   
+}
+.Dessert h2 {
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carrot__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.carrot__section img{
+   position: relative;
+   left: 900px;
+  bottom: 950px;
+   width: 500px;
+   height: 500px;
+   
+}
+
+.carrot__section:target {
+    display: block;
+}
+
+.carrot__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.carrot__content h2{
+    font-size: 80px; 
+      
+}
+.carrot__content h3{
+    font-size: 35px;
+}
+
+.cinnamon__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.cinnamon__section img{
+   position: relative;
+   left: 950px;
+  bottom: 850px;
+   width: 400px;
+   height: 375px;
+   
+}
+
+.cinnamon__section:target {
+    display: block;
+}
+
+.cinnamon__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.cinnamon__content h2{
+    font-size: 80px; 
+      
+}
+.cinnamon__content h3{
+    font-size: 35px;
+}
+
+
+
+/* WAFFLE RECIPE */
+
+.frenchtoast__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.frenchtoast__section img{
+   position: relative;
+   left: 670px;
+  bottom: 475px;
+   width: 500px;
+   height: 500px;
+   
+}
+
+.frenchtoast__section:target {
+    display: block;
+}
+
+.french__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.french__content h2{
+    font-size: 80px; 
+      
+}
+.french__content h3{
+    font-size: 35px;
+}
+/* PANCAKE RECIPE */
+
+.pancakes__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.pancakes__section img{
+   position: relative;
+   left: 670px;
+  bottom: 750px;
+   width: 500px;
+   height: 500px;
+   
+}
+
+.pancakes__section:target {
+    display: block;
+}
+
+.pancakes__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.pancakes__content h2{
+    font-size: 80px; 
+      
+}
+.pancakes__content h3{
+    font-size: 35px;
+}
+
+/* WAFFLE RECIPE */
+
+
+.waffles__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.waffles__section img{
+   position: relative;
+   left: 670px;
+  bottom: 675px;
+   width: 500px;
+   height: 500px;
+   
+}
+
+.waffles__section:target {
+    display: block;
+}
+
+.waffles__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.waffles__content h2{
+    font-size: 80px; 
+      
+}
+.waffles__content h3{
+    font-size: 35px;
+}
+
+
+
+/* OATS RECIPE */
+
+.oats__section {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.oats__section img{
+   position: relative;
+   left: 890px;
+  bottom: 550px;
+   width: 550px;
+   height: 500px;
+   
+}
+
+.oats__section:target {
+    display: block;
+}
+
+.oats__content{
+  
+    position: relative;
+    left: 55px;
+    top: 50px;
+    font-size: 30px;
+
+}
+.oats__content h2{
+    font-size: 80px; 
+      
+}
+.oats__content h3{
+    font-size: 35px;
+}
+
+/* Recipe Layout */
+
+.recipe-section{
+    height: 300px;
+}
+
